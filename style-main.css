@@ -1,6 +1,81 @@
 @charset "utf-8";
 /* CSS Document */
 
-logo {
-	margin: 20px, auto, 0, auto;
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_lightRg';
+    src: url('akzidenzgrotesk-light-webfont.eot');
+    src: url('akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('akzidenzgrotesk-light-webfont.woff') format('woff'),
+         url('akzidenzgrotesk-light-webfont.ttf') format('truetype'),
+         url('akzidenzgrotesk-light-webfont.svg#akzidenz-grotesk_bq_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-size: 100%;
+}
+
+.container {
+	min-height: 100%;
+	position:relative;
+	padding-bottom: 3em;
+}
+
+.main {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 90%;
+	text-align:center;
+}
+
+.whatwedo {
+	font-family: 'akzidenz-grotesk_bq_lightRg', san-serif;
+	font-size: 100%;
+	color:#EE2E24;
+	text-align:center;
+	margin: 0 auto;
+	padding: 2%;
+	width: auto;
+}
+
+.wedovideo {
+	width: 65%;
+	height: auto;
+	background-color:#EE2E24;
+	margin: 0 auto;
+	margin-top: 2%;
+	text-align:center;
+}
+
+.login {
+	text-align:center;
+	margin-top:2%;
+}
+
+.footerB {
+	text-align:center;
+	font-family: 'akzidenz-grotesk_bq_lightRg', san-serif;
+	font-size: small;
+	width: 100%;
+	height: 5%;
+}
+
+.footerA {
+	text-align:center;
+	font-family: 'akzidenz-grotesk_bq_lightRg', san-serif;
+	font-size: small;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+}
+
+.whatwedo a:hover,
+.whatwedo a:visited,
+.whatwedo a:link,
+.whatwedo a:active {
+	text-decoration:none;
 }
