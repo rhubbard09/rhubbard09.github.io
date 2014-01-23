@@ -23,6 +23,7 @@ $(document).ready(function () {
 		$(this).fadeOut(0);
 		$('.whatwedo').fadeIn(400);
 		$('.footerB').addClass('footerA').removeClass('footerB');
-	})	
+	})
+
 })
 

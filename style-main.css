@@ -60,9 +60,18 @@ body {
 }
 
 .login {
+	height: 5px;
+	clear:both;
+	padding-bottom:100px;
+	box-shadow: 0px 5px 8px #EEE;
+}
+
+.login img {
 	text-align:center;
 	margin-top:2%;
+	padding-right:30px;
 	float:right;
+	width: 150px;
 }
 
 .footerB {
@@ -87,9 +96,31 @@ body {
 
 /*----------------Dashboard---------------*/
 
+.nav {
+	height: 2px;
+	clear:both;
+	padding-bottom:100px;
+	box-shadow: 0px 5px 8px #EEE;
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+
+.nav a:visited,
+.nav a:link,
+.nav a:active {
+	text-decoration:none;
+	color:#000;
+}
+
+.nav a:hover {
+	color:#F00;
+}
+
 .bug {
 	margin: 1.8% 0 0 2%;
 	float: left;
+	display:inline;
 }
 
 .menu {
@@ -106,11 +137,10 @@ body {
 }
 
 .profile {
-	width: 15%;
+	width: 20%;
 	margin: 2% 0 0 2%;
 	float: right;
 	display:inline-block;
-	text
 }
 
 .profile #profileimage {
@@ -118,8 +148,12 @@ body {
 	width:32px; 
 	height:32px; 
 	display:inline-block;
-	margin: 0 10% 0 0;
+	margin: 0 25px 0 0;
 	float:left;
+}
+
+.profile #profileimage img {
+	max-height:40px;
 }
 
 .profile p img {
