@@ -137,8 +137,8 @@ body {
 }
 
 .profile {
-	width: 20%;
-	margin: 2% 0 0 2%;
+	width: 15%;
+	margin-top: 30px;
 	float: right;
 	display:inline-block;
 }
@@ -160,3 +160,6 @@ body {
 	height:15px; 
 	padding-left:15px;
 }
+
+/* Pop Up for settings  */
+
